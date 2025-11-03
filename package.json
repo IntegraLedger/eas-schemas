@@ -1,0 +1,32 @@
+{
+  "name": "@integraledger/eas-schemas",
+  "version": "1.0.0",
+  "description": "EAS (Ethereum Attestation Service) schema definitions for Integra V6 contracts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IntegraLedger/eas-schemas.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "keywords": [
+    "eas",
+    "attestation",
+    "ethereum-attestation-service",
+    "integra",
+    "schemas"
+  ],
+  "author": "IntegraLedger",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
